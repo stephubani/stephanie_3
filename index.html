@@ -1,0 +1,61 @@
+<!Doctype html>
+<html lang='en'>
+<head>
+	<link href='../response/bootstrap/css/bootstrap.css' rel='stylesheet' type='text/css'>
+	<link href='../response/fa/css/all.min.css' rel='stylesheet'>
+		<title>Creating Layout Using Bootstrap Assignment </title>
+		<meta charset='utf-8'>
+		<meta name='viewport' content='width=device-width,initial-scale=1, shrink-to-fit=no'>
+		
+	<style>
+		div{
+			border:1px solid red;
+			min-height:300px;
+		}
+		.bc{
+			 background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,9));
+		}
+		.hello{
+			padding:100px;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class='container-fluid bc'>
+		<div class='row'>
+			<div class='col-md-2'>
+				
+				<button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+					<i class='fa fa-home' style='font-size:30px;color:dark;'></i>
+				</button>
+			</div>
+			<div class='col-md-10 text-center'>
+				<div class='hello'>
+				<h1>Hello,</h1>
+				<p>My name is Ubani Stephanie Ugonna</p>
+				<p>I am a Software Developer</p>
+			</div>
+			</div>
+	</div>
+	
+	
+	
+	<!--Start off canvas-->
+		<div class="offcanvas offcanvas-start bg-light" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Our Menu</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+	</div>
+  <div class="offcanvas-body">
+    <div>
+      Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+    </div>
+     
+  </div>
+</div>
+	<!--End off canvas-->
+	
+<script src='../response/bootstrap/js/bootstrap.bundle.min.js'></script>
+</body>
+</html>
