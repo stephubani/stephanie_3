@@ -9,81 +9,99 @@
 		
 	<style>
 		div{
-			bordexr:1px solid red;
-			min-height:100px;
+			bordr:1px solid red;
+			min-height:150px;
 		}
-		.bc{
-			background: linear-gradient(140deg, #4d194d, #000000);
-			filter:blur
-
+		.bc {
+            background-image: url('program.jpg');
+            background-size: cover;
+            background-position: center;
+           height:800px;
+        }
+        .overlay {
+             position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+		
+		.posit{
+			padding-top:100px;
 		}
-		.hello{
-			padding:100px;
-			color:#fffcf2;
-		}
-		.icn{
-			
+		.link a{
+			text-decoration:none;
+			color:#00b4d8;
 		}
 		
 	</style>
 </head>
 <body>
-	<div class='container-fluid bc'>
-		<div class='row'>
-			<div class='col-md-2'>
-				
+	<div class='container-fluid bc  overlay'>
+	<div class='row'>
+		<div class='col'>
+			<div>
 				<button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
 					<i class="fa-solid fa-bars-staggered fa-beat-fade" style='font-size:25px; color:#fffcf2;'></i>
-				</button>
-			</div>
-			<div class='col-md-10 text-center'>
-				<div class='hello'>
-				<h1>Hello,</h1>
-				<p>My name is Ubani Stephanie Ugonna</p>
-				<p>I am a Software Developer</p>
+				</button></div>
 				
-				<button class='btn btn-outline-light'>Hire Me</button>
-			</div>
-			
-		
+				<div class='text-center' style='font-size:40px; color:#fffcf2;'>
+					<h1>Hello,</h1>
+					<p>My name is Ubani Stephanie Ugonna</p>
+					<p>I am a Software Developer</p>
 				
-			</div>
-	</div>
-	
-	<div class='row'>
-		<div class='col-md'>
-			<div class='icn text-center' style='font-size:40px;'>
-			<a href='#'>
-			<i class="fa-brands fa-instagram fa-bounce" style="color: #fffcf2;"></i>
-			</a>
+					<button class='btn btn-outline-light'>Hire Me</button>
+				</div>
+				<div></div>
+				
+				<div class='text-center  posit' style='font-size:30px;'>
+					<a href='#'>
+						<i class="fa-brands fa-instagram" style="color: #fffcf2;"></i>
+					</a>
 
 			
-			<a href='#'>
-				<i class="fa-brands fa-whatsapp fa-bounce" style="color: #fffcf2;"></i>
-			</a>
+					<a href='#'>
+						<i class="fa-brands fa-whatsapp" style="color: #fffcf2;"></i>
+					</a>
 			
-			<a href='#'>
-				<i class="fa-brands fa-linkedin fa-bounce" style="color: #fffcf2;"></i>
-			</a>
+					<a href='#'>
+						<i class="fa-brands fa-linkedin" style="color: #fffcf2;"></i>
+					</a>
 			
-			<a href='#'>
-				<i class="fa-brands fa-github fa-bounce" style="color: #fffcf2;"></i>
-			</a>
-			</div>
+					<a href='#'>
+						<i class="fa-brands fa-github" style="color: #fffcf2;"></i>
+					</a>
+				</div>
+		
 		</div>
 	</div>
+	
+		
+</div>
 	
 	
 	
 	<!--Start off canvas-->
-		<div class="offcanvas offcanvas-start bg-light" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-  <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Our Menu</h5>
+		<div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header" style='color:#00b4d8;'>
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">My Profile</h5>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-	</div>
-  <div class="offcanvas-body">
-    <div>
-      Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+	</div >
+  <div class="offcanvas-body ">
+    <div class='link'>
+      <a href='#'>About Me </a>
+	  <hr>
+	  <a href='#'>My Achievements</a>
+	  <hr>
+	  <a href='#'>My Resume</a>
+	  <hr>
+	   <a href='#'>Testimonials</a>
+	  <hr>
+	   <a href='#'>Contact</a>
+	  <hr>
+		
+	 
     </div>
      
   </div>
