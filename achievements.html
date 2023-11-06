@@ -3,19 +3,133 @@
 <head>
 	<link href='../response/bootstrap/css/bootstrap.css' rel='stylesheet' type='text/css'>
 	<link href='../response/fa/css/all.min.css' rel='stylesheet'>
-		<title>Creating Layout Using Bootstrap Assignment </title>
-		<meta charset='utf-8'>
-		<meta name='viewport' content='width=device-width,initial-scale=1, shrink-to-fit=no'>
+	<title>Achievements </title>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width,initial-scale=1, shrink-to-fit=no'>
 	<style>
-	div{
-		border: 1px solid red;
-		min-height:180px;
-	}
+		div{
+			border:px solid red;
+			
+			
+		}
+		.stick{
+			position:sticky;
+			top:100px;
+		}
+		
    </style>
 </head>
 <body>
+	<div class='container-fluid bg-dark'>
+		<div class='row'>
+			<div class='col-md text-center'>
+			<div class='text-start'>
+				<button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+					<i class="fa-solid fa-bars-staggered fa-beat-fade" style='font-size:25px; color:#fffcf2;'></i>
+				</button>
+			</div>
+				<h1 style='color:#00b4d8;font-family: "Courier New", monospace;'>My Achievements</h1>
+                <p style='color:#fffcf2;'>Learn about my skills and experiences in tech</p>
+                <p style='color:#fffcf2;'>View projects I have worked on and languages I create with.</p>
+			</div>
+		</div>
+		
+		<div class='row'>
+			<div class='col-md-6'>
+				<h1 style='color:#00b4d8;font-family: "Courier New", monospace;'>My Skills</h1>
+				<p style='color:#fffcf2;'>Each client i work with are sure of having any of the following in their website</p>
+				<p style='color:#fffcf2;'>For more than 20 years our experts have been accomplishing enough with modern Web Development, new generation web and app programming language.</p>
+				<!-- <div class="progress bg-dark" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> -->
+					<!-- <div class="progress-bar" style="width: 75%">HTML</div> -->
+				<!-- </div> -->
+				<!-- <br> -->
+				<!-- <div class="progress bg-dark" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> -->
+					<!-- <div class="progress-bar" style="width: 25%">JAVASCRIPT</div> -->
+				<!-- </div> -->
+				<!-- <br> -->
+				<!-- <div class="progress bg-dark" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"> -->
+					<!-- <div class="progress-bar" style="width: 50%">CSS</div> -->
+				<!-- </div> -->
+				<!-- <br> -->
+				<!-- <div class="progress bg-dark" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"> -->
+					<!-- <div class="progress-bar" style="width: 75%">PYTHON</div> -->
+				<!-- </div> -->
+				<div class="progress" style="height: 20px;">
+					<div class="progress-bar" role="progressbar" aria-label="Example 1px high" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">HTML</div>
+				</div>
+				<br>
+				<div class="progress" style="height: 20px;">
+					<div class="progress-bar" role="progressbar" aria-label="Example 20px high" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">JAVA</div>
+				</div>
+				<br>
+				<div class="progress" style="height: 20px;">
+					<div class="progress-bar" role="progressbar" aria-label="Example 1px high" style="width: 55%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">CSS</div>
+				</div>
+				<br>
+				<div class="progress" style="height: 20px;">
+					<div class="progress-bar" role="progressbar" aria-label="Example 20px high" style="width: 35%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">PYTHON</div>
+				</div>
+			</div>
+			
+			<div class='col-md-6 img-fluid'>
+				<img src='images/code.jpg' class='img-fluid stick'> 
+            </div>
+		</div>
+		
+		<div class='row'id='resume'>
+			<div class='col-md-2'>
+				<p style='color:#00b4d8;'>check out my resume</p>
+				<h1 style='color:#fffcf2;font-family: "Courier New", monospace;'>Resume</h1>
+			</div>
+		</div>
+		
+		<div class='row'>
+			<div class='col-md-6'>
+			<h5 style='color:#00b4d8;'>Education</h5>
+			<hr>
+			<p style='color:#fffcf2;font-family: "Courier New", monospace;'>Gem Private School : Got my first leaving certificate , and left with flying colors</p>
+			<hr style='color:#fffcf2;font-family: "Courier New", monospace;'>
+			<p style='color:#fffcf2;font-family: "Courier New", monospace;'>Early Height College : Got into secondary school and developed the love for computer science</p>
+			<hr style='color:#fffcf2;'>
+			
+			
+			</div>
+			<div class='col-md-6'>
+				<h5 style='color:#00b4d8;'>Work Experience</h5>
+			<hr>
+			<p style='color:#fffcf2;font-family: "Courier New", monospace;'>Worked at stephanie industry from : 2012-2022</p>
+			<hr style='color:#fffcf2;'>
+			<p style='color:#fffcf2;font-family: "Courier New", monospace;'>Designed a website for pastry by steph which i still update till date</p>
+			<hr style='color:#fffcf2;'>
+			<p style='color:#fffcf2;font-family: "Courier New", monospace;'>Became a web developer for the ingressive of good page</p>
+			<hr style='color:#fffcf2;'>
+			</div>
+		</div>
+	</div>
 
-
-<script src='../response/bootstrap/js/bootstrap.bundle.min.js'></script>
+<!--Start off canvas-->
+		<div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header" style='color:#00b4d8;'>
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">My Profile</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+	</div >
+  <div class="offcanvas-body ">
+    <div class='link'>
+	<a href='index.html'>Home Page </a>
+	  <hr>
+      <a href='about.html'>About Me </a>
+	  <hr>
+	  <a href='achievements.html'>My Achievements</a>
+	  <hr>
+	  <a href='achievements.html#resume'>My Resume</a>
+	  <hr>
+	   <a href='contact.html'>Contact</a>
+	  <hr>
+    </div>
+     
+  </div>
+</div>
+	<!--End off canvas-->
+	<script src='../response/bootstrap/js/bootstrap.bundle.min.js'></script>
 </body>
 </html>
